@@ -1,0 +1,22 @@
+{{> header}}
+
+<div class="container bg-light">
+    <h1>Register</h1>
+</div>
+<div class="container-data">
+  <div class="row">
+    <div class="col-lg" style="padding: 5em; line-height:3em">
+      <form action="/newuser" method="POST">
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Id">
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Enter password">
+          </div>
+          <button type="submit" name="submit" class="btn btn-primary" style="float:left;">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{> footer}}
